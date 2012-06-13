@@ -10,7 +10,7 @@ namespace Inception.Tests
         public void Inceptor_TestMethod()
         {
             var inceptor = new Inceptor();
-            Assert.AreEqual<int>(6, inceptor.TestMethod());
+            Assert.AreEqual<int>(5, inceptor.TestMethod());
         }
     }
 }
